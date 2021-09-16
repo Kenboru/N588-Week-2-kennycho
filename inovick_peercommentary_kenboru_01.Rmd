@@ -1,9 +1,9 @@
 ---
-title: "inovick_peercommentary_kenboru_01"
+title: "kennycho_FinalHomeworkCode_01.Rmd"
 output: html_document
 ---
 ---
-title: "inovick_peercommentary_kenboru_01"
+title: "kennycho_FinalHomeworkCode_01.Rmd"
 output: html_document
 author: Kenboru
 ---
