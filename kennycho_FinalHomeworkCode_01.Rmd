@@ -1,10 +1,6 @@
 ---
 title: "kennycho_FinalHomeworkCode_01.Rmd"
 output: html_document
----
----
-title: "kennycho_FinalHomeworkCode_01.Rmd"
-output: html_document
 author: Kenboru
 ---
 
@@ -14,12 +10,10 @@ v1 <- "Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of l
 v2 <- gsub("[[:punct:]]", "", v1)
 v3 <- strsplit(v2, " ")
 v4 <- c(v3[[1]])
-v5 <- v4[seq(from = 1, to = 22, by = 3)]
+v5 <- v4[seq(from = 3, to = 22, by = 3)]
 v5
 ```
-## I am not sure if this method of extracting every third element is what is being asked of us, but it looks clean and I do not believe it is 'brute forcing' the problem.
 
-## comment1- This worked way better than mine, I was having issues with syntax because I put each element in quotes, but I think what you did was better. Also it looked like assigning each action a vector as you go on is a good call. Sorry I don't have any critiques lol, I will actually try what you did for mine when I clean it up. Good job!
 ## Challenge 2
 ```{r}
 m <- matrix(data = 1:80, nrow = 8, ncol = 10, byrow = FALSE)
@@ -31,7 +25,7 @@ x
 x <- m[2, 2]:m[6, 9]
 x
 ```
-## comment2- this is pretty similar to what I did
+
 ## Challenge 3
 ```{r}
 a <- array(data = 400:1, dim = c(5, 5, 4, 4))
@@ -63,7 +57,7 @@ Primates <- list(Haplorhini, Strepsirhini)
 names(Primates) <- list("Haplorhini", "Strepsirhini")
 Primates
 ```
-## comment3- when I did this taxonomy challenge, I got more syntax issues and I think I wasn't assigning vectors correctly? Sorry this has become a commentary on my own work instead of yours!! Yours looks really good and is workig super well and mine was just a struggle so I feel like I have nothing constructive to add to yours
+
 ## Challenge 5
 ```{r}
 z <- c(3, 0, 1 ,23, 1, 2, 33, 1, 1, 42, 0, 1, 41, 0, 2)
@@ -74,12 +68,7 @@ coerce1 <- as.logical(df1[, 2])
 coerce2 <- as.factor(df1[, 3])
 str(df1)
 ```
-## To be honest, I am not sure what I should be expecting from the str() function here, so I am hoping that this is correct. I still don't quite grasp data frames...
-## last comment- I think this is right
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-
-
-
