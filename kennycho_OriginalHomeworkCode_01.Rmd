@@ -13,8 +13,6 @@ v5 <- v4[seq(from = 1, to = 22, by = 3)]
 v5
 ## I am not sure if this method of extracting every third element is what is being asked of us, but it looks clean and I do not believe it is 'brute forcing' the problem.
 
-# NK: it looks like you were able to use stringr which is more than I can say! One issue though is I believe you would want to begin extracting at Buck rather than Stately if you're trying to extract every third word. 
-
 ## Challenge 2
 m <- matrix(data = 1:80, nrow = 8, ncol = 10, byrow = FALSE)
 m
@@ -25,8 +23,6 @@ x
 x <- m[2, 2]:m[6, 9]
 x
 
-#NK: your extractions are formatted diff than mine. I'm not sure if this is better or if you want to retain the row/column relationship between the numbers. On the third part, I think you want to extract 6 and 8 not 6 to 8 which would just mean replacing the colon with a comma. For the third part, your extraction has retained numbers from rows 1, 7, and 8, but I'm not sure why. 
-
 ## Challenge 3
 a <- array(data = 400:1, dim = c(5, 5, 4, 4))
 x <- a[1, 1, 1, 2]
@@ -35,8 +31,6 @@ x <- a[2, 3, 2, ]
 x
 x <- a[1:5, 1:5, 3, 3]
 x
-
-#I assigned your responses so I could compare our results! :) We did the same thing, so I don't have much to say. I think this challenge was relatively simple compared to the others. 
 
 ## Challenge 4
 Lemuroidea <- c("Cheirogaleidae", "Lepilemuridae", "Indriidae", "Lemuridae", "Daubentoniidae")
@@ -71,4 +65,3 @@ coerce1 <- as.logical(df1[, 2])
 coerce2 <- as.factor(df1[, 3])
 str(df1)
 ## To be honest, I am not sure what I should be expecting from the str() function here, so I am hoping that this is correct. I still don't quite grasp data frames...
-# OK ngl, I really don't have much to say here because I was a little confused about what my end goal here was. I think we did something similar though...
